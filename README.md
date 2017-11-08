@@ -2,7 +2,7 @@
 
 Matlab functions to run the Two-Step algorithm.
 
-A non-Gaussian variables dataset X is required as input, together with a positive value for the penalization parameter, lambda.
+A dataset X of non-Gaussian variables is required as input, together with a positive value for the penalization parameter, lambda.
 
 Two-Step outputs the causal coefficients matrix B, from X = BX + E. 
 
