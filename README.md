@@ -6,6 +6,8 @@ Matlab functions to run the ICA-based **Two-Step algorithm** introduced in Sanch
 
 The Two-Step algorithm was designed and applied to fMRI data but can be applied to other non-Gaussian, linear problems. See paper for details.
 
+## Implementation
+
 **Input**: a dataset X of non-Gaussian variables, together with a positive value for the regularization parameter, lambda.
 
 **Output**: matrix B of causal coefficient estimates, from X = BX + E. 
