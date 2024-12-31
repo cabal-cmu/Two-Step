@@ -1,8 +1,10 @@
 # Two-Step Algorithm for Cyclic Causal Systems
 
-Matlab functions to run the ICA-based **Two-Step algorithm** introduced in Sanchez-Romero, R., Ramsey, J. D., Zhang, K., Glymour, M. R., Huang, B., & Glymour, C. (2019). [Estimating feedforward and feedback effective connections from fMRI time series: Assessments of statistical methods](https://doi.org/10.1162/netn_a_00061). Network Neuroscience, 3(2), 274-306. 
+Matlab functions to run the ICA-based **Two-Step algorithm** introduced in Sanchez-Romero, R., Ramsey, J. D., Zhang, K., Glymour, M. R., Huang, B., & Glymour, C. (2019). [Estimating feedforward and feedback effective connections from fMRI time series: Assessments of statistical methods](https://doi.org/10.1162/netn_a_00061). Network Neuroscience, 3(2), 274-306.
 
-The algorithm was designed and applied to fMRI data but can be applied to other non-Gaussian, linear problems.
+(See paper main repository for other resources, https://github.com/cabal-cmu/Feedback-Discovery)
+
+The Two-Step algorithm was designed and applied to fMRI data but can be applied to other non-Gaussian, linear problems. See paper for details.
 
 **Input**: a dataset X of non-Gaussian variables, together with a positive value for the regularization parameter, lambda.
 
