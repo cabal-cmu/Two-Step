@@ -6,9 +6,9 @@ The algorithm was designed and applied to fMRI data but can be applied to other 
 
 **Input**: a dataset X of non-Gaussian variables, together with a positive value for the regularization parameter, lambda.
 
-**Output**: B matrix of causal coefficients, from X = BX + E. 
+**Output**: matrix B of causal coefficient estimates, from X = BX + E. 
 
-In B, the causal direction goes from column to row, such that a matrix entry Bij, implies Xj --> Xi
+In matrix B, the causal direction goes from column to row, such that a matrix entry Bij, implies Xj --> Xi
 
 two_step_CD.m  runs Two-Step with Adaptative Lasso as a first step, using lambda to control the regularization.
 
